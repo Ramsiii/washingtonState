@@ -1,0 +1,51 @@
+body {
+    background: black;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+ }
+ 
+
+ .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+ header {
+    background: gold;
+    line-height: 60px;
+ }
+ 
+ nav {
+    background:black;
+    color: white;
+    line-height: 50px;
+ }
+ 
+ article {
+    background:#008457;
+    line-height: 180px;   
+ }
+ 
+ aside {
+    background: #34C2DE;
+    line-height: 90px;
+ }
+ 
+ div.sidebar {
+    float: right;
+    width: 200px;
+ }
+ 
+ section {
+    background: #008457;
+    line-height: 90px;
+ }
+ 
+ footer {
+    background: gold;
+    line-height: 40px;
+ }
