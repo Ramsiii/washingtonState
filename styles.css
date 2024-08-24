@@ -38,10 +38,13 @@ body {
     background: #34C2DE;
     line-height: 90px;
     border-right: solid white 2px;
+    border-left: solid white 2px;
+
   }
 
 aside:last-child {
     border-top: solid white 2px;
+    border-bottom: solid white 2px;
 }
   
  div.sidebar {
@@ -51,9 +54,8 @@ aside:last-child {
  
  section {
     background: #008457;
-    line-height: 180px;
+    line-height: 182px;
     border-left: solid white 2px;
-    border-right: solid white 2px;
  }
  
  footer {
