@@ -41,9 +41,6 @@ body {
     border-left: solid white 2px;
     border-bottom: solid white 2px;
   }
-
-aside:last-child {
-}
   
  div.sidebar {
     float: right;
