@@ -22,6 +22,10 @@ header {
     align-items: center;
 }
 
+#image-block {
+    display: block;
+}
+
 header span {
     margin-left: 20px;
 }
@@ -66,6 +70,10 @@ nav li a:hover,
 }
 
 nav li.dropdown {
+    display: inline-block;
+}
+
+.dropdown {
     display: inline-block;
 }
 
