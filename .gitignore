@@ -1,4 +1,6 @@
-/.prettierc
+/.prettierrc
 /package-lock.json
 /package.json
 /node_modules
+/index_8_26_24.html
+/styles_8_26_24.css

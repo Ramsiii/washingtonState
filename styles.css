@@ -86,7 +86,6 @@ nav li.dropdown {
     border: solid white 2px;
 }
 
-
 .dropdown-content a {
     color: white;
     padding: 12px 16px;
@@ -127,6 +126,40 @@ section {
     flex-direction: row;
     background: #008457;
     border-left: solid white 2px;
+}
+
+section div p {
+    padding-left: 10px;
+}
+
+section a {
+    color: indigo;
+}
+
+section table caption {
+    padding-left: 10px;
+}
+
+table caption {
+    text-align: left;
+    font-weight: bold;
+    text-wrap: nowrap;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+table th,
+table td {
+    font-size: smaller;
+    text-align: left;
+}
+
+table tfoot {
+    font-size: x-small;
 }
 
 footer {
