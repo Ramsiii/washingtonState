@@ -115,7 +115,11 @@ aside {
     flex: 1;
 }
 
-aside a {
+aside>p>a {
+    color: black;
+}
+
+aside>p>a:hover {
     color: indigo;
 }
 
@@ -137,6 +141,10 @@ section div p {
 }
 
 section a {
+    color: black;
+}
+
+section a:hover {
     color: indigo;
 }
 
@@ -195,5 +203,10 @@ footer span {
 }
 
 footer a {
+    color: black;
+}
+
+
+footer a:hover {
     color: indigo;
 }
