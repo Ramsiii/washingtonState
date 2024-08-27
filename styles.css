@@ -115,6 +115,10 @@ aside {
     flex: 1;
 }
 
+aside a {
+    color: indigo;
+}
+
 div.sidebar {
     display: flex;
     flex-direction: column;
@@ -167,4 +171,13 @@ footer {
     line-height: 40px;
     text-align: center;
     border: solid white 2px;
+}
+
+footer span {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer a {
+    color: indigo;
 }
