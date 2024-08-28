@@ -153,14 +153,28 @@ section a:hover {
     color: indigo;
 }
 
-section table caption {
-    padding-left: 10px;
+fieldset {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
-table caption {
+legend {
+    margin-left: -20px;
+}
+
+caption {
     text-align: left;
     font-weight: bold;
     text-wrap: nowrap;
+    padding-left: 2px;
+}
+
+section>div>table {
+    margin-left: 10px;
+}
+
+form>fieldset>table {
+    margin-left: -24px;
 }
 
 table,
@@ -173,10 +187,42 @@ table th,
 table td {
     font-size: smaller;
     text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    font-size: 24px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+input {
+    border-style: inset;
+}
+
+
+form table,
+form th,
+form td {
+    border: none;
 }
 
 .source-font {
     font-size: x-small;
+}
+
+button[type="submit"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    float: right;
+    height: 45px;
+    width: 100px;
+    border-style: outset;
 }
 
 section ul {
