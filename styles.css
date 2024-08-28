@@ -206,7 +206,6 @@ input {
     border-style: inset;
 }
 
-
 form table,
 form th,
 form td {
@@ -216,8 +215,8 @@ form td {
 button[type="submit"] {
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-right: 8px;
-    float: right;
+    margin-left: -15px;
+    float: left;
     height: 45px;
     width: 100px;
     border-style: outset;
