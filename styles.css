@@ -30,6 +30,10 @@ header span {
     margin-left: 20px;
 }
 
+header h1 {
+    font-size: 93%;
+}
+
 nav {
     background: black;
     color: white;
