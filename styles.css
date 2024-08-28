@@ -53,7 +53,8 @@ nav ul {
     justify-content: space-between;
 }
 
-nav li {
+nav>ul>li {
+    border: 1px groove #575656;
     float: left;
     width: 100%;
 }
@@ -212,10 +213,6 @@ form td {
     border: none;
 }
 
-.source-font {
-    font-size: x-small;
-}
-
 button[type="submit"] {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -224,6 +221,10 @@ button[type="submit"] {
     height: 45px;
     width: 100px;
     border-style: outset;
+}
+
+.source-font {
+    font-size: x-small;
 }
 
 section ul {

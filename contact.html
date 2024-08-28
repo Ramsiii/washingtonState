@@ -47,20 +47,10 @@
               <fieldset>
                 <legend>Contact Information</legend>
                 <table>
-                  <thead>
-                    <tr>
-                      <th>
-                        <label for="firstName">First Name:</label>
-                      </th>
-                      <th>
-                        <label for="lastName">Last Name:</label>
-                      </th>
-                      <th>
-                        <label for="message">Your message:</label>
-                      </th>
-                    </tr>
-                  </thead>
                   <tr>
+                    <td>
+                      <label for="firstName">First Name:</label>
+                    </td>
                     <td>
                       <input
                         type="text"
@@ -70,6 +60,13 @@
                         required
                       />
                     </td>
+                    <td>
+                      <label for="message">Your message:</label>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><label for="lastName">Last Name:</label></td>
 
                     <td>
                       <input
@@ -85,8 +82,8 @@
                         id="message"
                         name="message"
                         placeholder="Your question here."
-                        rows="10"
-                        cols="45"
+                        rows="9"
+                        cols="50"
                         required
                       ></textarea>
                     </td>
