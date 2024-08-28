@@ -4,6 +4,7 @@
 /package-lock.json
 /package.json
 /node_modules
+.DS_Store
 /index_8_26_24.html
 /styles_8_26_24.css
 /olympia_8_26_24.html
