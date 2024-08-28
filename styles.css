@@ -22,12 +22,13 @@ header {
     align-items: center;
 }
 
-#image-block {
+.imageBlock {
     display: block;
+    margin-right: 20px;
 }
 
-header span {
-    margin-left: 20px;
+#flagSmall {
+    margin-left: -13px;
 }
 
 header h1 {
