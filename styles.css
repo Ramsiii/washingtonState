@@ -14,6 +14,8 @@ body {
     box-sizing: border-box;
 }
 
+/* HEADER */
+
 header {
     background: gold;
     border: solid white 2px;
@@ -34,6 +36,8 @@ header {
 header h1 {
     font-size: 93%;
 }
+
+/* NAV */
 
 nav {
     background: black;
@@ -108,10 +112,7 @@ nav li.dropdown {
     display: block;
 }
 
-article {
-    background: #008457;
-    line-height: 180px;
-}
+/* SIDEBAR - ASIDE */
 
 aside {
     background: #34c2de;
@@ -135,6 +136,8 @@ div.sidebar {
     align-items: space-evenly;
 }
 
+/* SECTION */
+
 section {
     display: flex;
     flex-direction: row;
@@ -147,6 +150,22 @@ section div p {
     padding-right: 10px;
 }
 
+section ul {
+    margin-bottom: 1px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+section ul+span {
+    padding-left: 10px;
+}
+
+section ol li {
+    margin-left: 7px;
+}
+
 section a {
     color: black;
 }
@@ -154,6 +173,25 @@ section a {
 section a:hover {
     color: indigo;
 }
+
+/* TABLE */
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+table th,
+table td {
+    font-size: smaller;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* FORM */
+
 
 fieldset {
     margin-bottom: 10px;
@@ -177,20 +215,6 @@ section>div>table {
 
 form>fieldset>table {
     margin-left: -24px;
-}
-
-table,
-th,
-td {
-    border: 1px solid;
-}
-
-table th,
-table td {
-    font-size: smaller;
-    text-align: left;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 input[type="text"],
@@ -226,21 +250,11 @@ button[type="submit"] {
     font-size: x-small;
 }
 
-section ul {
-    margin-bottom: 1px;
-}
 
-.font-bold {
-    font-weight: bold;
-}
 
-section ul+span {
-    padding-left: 10px;
-}
 
-section ol li {
-    margin-left: 7px;
-}
+/* FOOTER */
+
 
 footer {
     background: gold;
