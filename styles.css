@@ -140,7 +140,8 @@ div.sidebar {
 
 section {
     display: flex;
-    flex-direction: row;
+    /* not sure this does anything: */
+    /* flex-direction: row; */
     background: #008457;
     border-left: solid white 2px;
 }
